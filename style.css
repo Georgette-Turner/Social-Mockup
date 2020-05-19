@@ -1,7 +1,88 @@
+nav { 
+    height: 50px;
+    border: 2px dotted whitesmoke;
+}
+
+* { 
+    box-sizing: border-box;}
+
 .header {
     width: 850px;
-    height: 400px;
-    padding: 10px;
-    background-color: dodgerblue;
-    
+    height: 500px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    background-color: blue;
+   }
+
+.header-bg {
+    height: 225px;
+    background-color: deepskyblue;
+    }
+
+.profile-heading {
+    height: 175px;
+    background-color: white;
+    border-bottom: 1px solid darkgrey;
 }
+
+ .profile-photo {
+     background-image: url (https://www.facebook.com/photo.php?fbid=10203813748134233&set=t.1535627955&type=3&size=720%2C960); 
+     background-repeat: no-repeat;
+     background-position: center;
+
+     height: 200px;
+     width: 200px; 
+     border-radius: 50% ;
+
+     position: relative;
+     top: 100px;
+     left: 20px;
+ }
+
+  .profile-info {
+        position: relative;
+      top: 75px;
+      height: 90px;
+      width: 60%;
+ }
+
+ .profile-info h1 {
+     font-size: 22px;
+     font-family: sans-serif;
+     font-weight: lighter;
+ }
+
+ .float-right-box {
+     width: 50%;
+     float: right; 
+ }
+
+ .profile-buttons {
+     height: 40px;
+      
+    position: relative;
+     top: -75px;
+     left: 75px;
+     
+ }
+
+ .profile-buttons button {
+     font-size: 22px;
+     background: blue;
+     color: white;
+ }
+
+ .employer-and-school-badges {
+    position: relative;
+    top: -75px;
+    left: 75px;
+ }
+
+  .employer-and-school-badges li {
+      list-style: none;
+      width: 40%;
+
+
+
+ }
